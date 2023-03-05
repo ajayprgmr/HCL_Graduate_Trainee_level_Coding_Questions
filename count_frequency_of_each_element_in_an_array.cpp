@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
-#include "Myutilities.h"
+// #include "Myutilities.h"
 using namespace std;
 map<int,int> frequency(vector<int> &v){
-          map<int,int> m;
+          map<int,int>m;
           int s=v.size();
           for(int i=0;i<s;i++){
             if(m.find(v[i])==m.end()){
